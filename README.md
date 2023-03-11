@@ -6,9 +6,9 @@ edit the .sh file and put your own discord webhook url into url.
 fill up the unsent folder with memes (or just symlink your meme folder)
 
 slap in a cron job that looks something like this
-
+``
 */5 * * * * /home/user/git/meme-uploader/meme-uploader.sh
-
+``
 and you are set
 
 if you are on windows and have gitbash then make a bat file with this
