@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-url="put ur webook inbetween these quotes"
+cd "$(dirname "$0")"
+url="put your url here"
 files=(./unsent/*)
 N=${#files[@]}
 ((N=RANDOM%N))
